@@ -4,7 +4,7 @@ import { UInt256 } from '@radixdlt/uint256'
 import { ec } from 'elliptic'
 import { uint256FromBN } from '@primitives'
 import BN from 'bn.js'
-const __js_DER = require('./indutnyEllipticImportDER')
+import __js_DER from './indutnyEllipticImportDER'
 
 const __fromRSAndDER = (
   input: Readonly<{

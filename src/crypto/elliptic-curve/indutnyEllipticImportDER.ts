@@ -191,7 +191,7 @@ function __js_toDER(r, s, enc) {
   return encode(res, enc)
 }
 
-module.exports = {
+export default {
   __js_importDER,
   __js_toDER,
 }
